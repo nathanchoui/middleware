@@ -6,7 +6,12 @@
 
     <groupId>personal.nathan</groupId>
     <artifactId>middleware</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>zookeeper</module>
+        <module>IDGenerator</module>
+    </modules>
 
     <dependencies>
         <dependency>
@@ -14,7 +19,6 @@
             <artifactId>disruptor</artifactId>
             <version>3.4.2</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
